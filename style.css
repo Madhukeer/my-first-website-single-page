@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial;
+
+    background-image:url("images/background.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+}
+
+/* Header */
+
+.header{
+    text-align:center;
+
+    padding:25px;
+
+    background:rgba(0,0,0,0.7);
+
+    color:white;
+}
+
+/* Navigation */
+
+.nav{
+    text-align:center;
+
+    padding:15px;
+
+    background:rgba(0,0,0,0.8);
+}
+
+.nav a{
+    color:white;
+
+    text-decoration:none;
+
+    margin:15px;
+
+    font-size:18px;
+}
+
+.nav a:hover{
+    color:yellow;
+}
+
+/* Glass Sections */
+
+.glass{
+
+    width:80%;
+
+    margin:30px auto;
+
+    padding:40px;
+
+    text-align:center;
+
+    background:rgba(255,255,255,0.35);
+
+    border-radius:15px;
+
+    backdrop-filter:blur(8px);
+
+    -webkit-backdrop-filter:blur(8px);
+
+    color:#111;
+}
+
+/* Headings */
+
+.glass h2{
+
+    margin-bottom:20px;
+
+    color:darkblue;
+
+    font-size:38px;
+}
+
+/* Paragraph */
+
+.glass p{
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    color:black;
+}
+
+/* Services List */
+
+ul{
+    list-style-type:none;
+}
+
+/* Service Items */
+
+li{
+
+    background:rgba(255,255,255,0.5);
+
+    margin:15px auto;
+
+    padding:15px;
+
+    width:60%;
+
+    border-radius:8px;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    color:black;
+}
+
+/* Footer */
+
+.footer{
+
+    text-align:center;
+
+    padding:20px;
+
+    background:rgba(0,0,0,0.8);
+
+    color:white;
+
+    margin-top:30px;
+}
